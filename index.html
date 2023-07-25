@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .bdot{
+    cursor:pointer
+    }
+    .bdot:hover{
+      opacity:0.5;
+    }
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="container">
+    <div class="item-input"> <input id='inp' placeholder="0" > </div>
+    <div class="item item-extra"><button class=" b button item-extra button-extra" id="clear">C</button></div>
+    <div class="item item-extra"><button class=" b button item-extra button-extra">+/-</button></div>
+    <div class="item item-extra"><button class=" b button item-extra button-extra op" value="%">%</button></div>
+    <div class="item item-sign"><button class=" b button item-sign button-sign op" value="÷">÷</button></div>
+    <div class="item item-number"><button class=" b button item-number button-number n" value='7'>7</button></div>
+    <div class="item item-number"><button class=" b button item-number button-number n" value='8'>8</button></div>
+    <div class="item item-number"><button class=" b button item-number button-number n" value='9'>9</button></div>
+    <div class="item item-sign"><button class=" b button item-sign button-sign op" value="×">×</button></div>
+    <div class="item item-number"><button class=" b button item-number button-number n" value='4'>4</button></div>
+    <div class="item item-number"><button class=" b button item-number button-number n" value='5'>5</button></div>
+    <div class="item item-number"><button class=" b button item-number button-number n" value='6'>6</button></div>
+    <div class="item item-sign"><button class=" b button item-sign button-sign op" value="-">-</button></div>
+    <div class="item item-number"><button class=" b button item-number button-number n" value='1'>1</button></div>
+    <div class="item item-number"><button class=" b button item-number button-number n" value='2'>2</button></div>
+    <div class="item item-number"><button class=" b button item-number button-number n" value='3'>3</button></div>
+    <div class="item item-sign"><button class=" b button item-sign button-sign op" value="+">+</button></div>
+    <div class="item-0 bdot"><button class=" b button item-0 button-number n " value=0>0</button></div>
+    <div class="item" style="background-color:#505050;text-align: center;">
+      <button class="button item-number bdot n" value='.' style="border:none;font-size:50px;background:none;color:white;">.</button>
+    </div>
+    <div class="item item-sign"><button class=" b button item-sign button-sign " id="equal">=</button></div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

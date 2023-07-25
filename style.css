@@ -1,0 +1,92 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+  justify-content:center;
+  align-items:center;
+  background-color:black;
+  display:grid;
+  width:350px;
+  height:550px;
+  border-radius: 30px;
+  grid-template-columns:repeat(4,1fr) ;
+  grid-template-rows: 125px 1fr 1fr 1fr 1fr 1fr;
+  row-gap:10px;
+  column-gap:10px;
+}
+.item:hover{
+  opacity: 0.5;
+}
+.item{
+  cursor:pointer;
+  text-align: center;
+  vertical-align:text-bottom;
+  margin:5px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: inline-block;
+  
+}
+.item-input{
+  color:white;
+  margin:10px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  
+}
+.item-0{
+  border-radius:100px;
+  margin:10px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.item-sign{
+  background-color:#FF9500;
+}
+.item-number{
+  background-color:#505050;
+}
+.item-extra{
+  background-color:#D4D4D2;
+}
+.item-0{
+  background-color:#505050;
+}
+
+.button-number{
+  font-family: Helvetica, Sans-Serif;
+  font-weight: lighter;
+    color:white;
+  font-size:40px;
+border: none;
+
+}
+.button-sign{
+  font-family: Helvetica, Sans-Serif;
+  font-weight: lighter;
+  font-size:40px;
+  border:none;
+  color:white;
+}
+.button-extra{
+  font-family: Helvetica, Sans-Serif;
+  font-weight: lighter;
+    font-size:40px;
+border:none;
+}
+.b{
+  background:none;
+  cursor:pointer;
+}
+#inp{
+  width:300px;
+  border:none;
+  background:none;
+  color:white;
+  font-size:50px;
+  font-family: Helvetica, Sans-Serif;
+  font-weight: lighter;
+}
